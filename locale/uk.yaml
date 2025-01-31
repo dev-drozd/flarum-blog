@@ -1,0 +1,118 @@
+v17development-flarum-blog:
+  admin:
+    blog: "Блог"
+
+    permissions:
+      write_articles: "Писати та редагувати статті блогу"
+      auto_approve_posts: "Публікувати статті без схвалення"
+      approve_posts: "Може схвалювати статті блогу"
+
+    settings:
+      no_categories_selected: "Категорії не вибрано"
+      selected_category_count: "{count, plural, one {Ви вибрали # категорію} other {Ви вибрали # категорій}}"
+      select_categories_button: "Вибрати категорії блогу"
+      blog_heading: "Блог"
+      featured_count_label: "Максимальна кількість вибраних статей"
+      featured_count_text: "Скільки статей має відображатися у великій сітці у верхній частині сторінки блогу?"
+      allow_comments_label: "Дозволити коментарі"
+      allow_comments_text: "За замовчуванням дозволяти коментарі до статей блогу. Якщо вимкнено, можна увімкнути індивідуально для кожної статті. <b>Примітка:</b> Зміна цього налаштування не вплине на вже опубліковані статті."
+      require_review_label: "Статті блогу потребують перевірки"
+      require_review_text: "При публікації стаття не буде одразу видимою і потребує перевірки модератором."
+      hide_on_discussion_list_label: "Не показувати у списку обговорень"
+      hide_on_discussion_list_text: "Приховати статті блогу зі списку обговорень."
+      add_sidebar_nav_label: "Додати в бічне меню"
+      add_sidebar_nav_text: "Додати посилання на блог у бічне меню навігації."
+      categories_heading: "Категорії"
+      hide_tags_in_taglist_label: "Приховати теги у списку тегів"
+      hide_tags_in_taglist_text: "Якщо увімкнено, це розширення приховає теги блогу з головної сторінки."
+      show_tag_hierarchy_label: "Показувати ієрархію тегів"
+      show_tag_hierarchy_text: "Додати відступи для підкатегорій і зробити список категорій ієрархічним."
+      redirects_heading: "Перенаправлення"
+      redirect_articles_label: "Перенаправляти статті блогу"
+      redirect_articles_text: "Якщо увімкнено, це розширення буде перенаправляти оригінальні URL обговорень на їхні URL блогу."
+      redirect_tags_label: "Перенаправляти теги блогу"
+      redirect_tags_text: "Якщо увімкнено, це розширення перенаправляє URL тегів блогу на URL категорії блогу."
+      default_article_image_label: "Зображення статті за замовчуванням"
+      default_article_image_text: "Виберіть зображення за замовчуванням, яке буде відображатися, якщо зображення не встановлено."
+      add_hero_label: "Показати вітальний банер"
+      add_hero_text: "Показати вітальний банер на сторінках блогу, якщо його ще не було закрито."
+
+  forum:
+    blog: "Блог"
+    read_more: "Читати далі"
+    hidden: "Приховано"
+    recent_posts: "Останні статті блогу"
+    categories: "Категорії"
+    forum_nav: "Навігація форуму"
+    return_to_overview: "Повернутися до огляду блогу"
+    no_more_posts: "Більше немає статей у блозі."
+    category_empty: "У цій категорії немає статей."
+
+    compose:
+      write_article: "Написати статтю"
+
+    validation:
+      missing_id: "Відсутній ID"
+
+    article:
+      title: "Заголовок"
+      slug: "Слаг"
+      summary: "Короткий опис"
+
+    comment_section:
+      comments: "Коментарі"
+      locked: "Розділ коментарів вимкнено для цієї статті"
+
+    review_article:
+      pending_review_title: "Очікує перевірки"
+      pending_review: "Ця стаття очікує перевірки і ще не опублікована"
+      approve_article: "Схвалити статтю"
+      approve_article_approved: "Стаття була схвалена і опублікована"
+
+    tools:
+      rename_article: "Перейменувати статтю"
+      edit_article: "Редагувати статтю"
+      update_category: "Оновити категорії"
+      article_settings: "Налаштування статті"
+      approve_article: "Схвалити статтю"
+      hide_article: "Приховати статтю"
+      recover_article: "Відновити статтю"
+      delete_forever: "Видалити назавжди"
+      enable_comments: "Увімкнути коментарі"
+      disable_comments: "Вимкнути коментарі"
+
+    utils:
+      redirect:
+        title: "Перенаправлення на статтю блогу..."
+        link: "<a>Натисніть тут</a>, якщо сторінка не перенаправила вас автоматично"
+
+    composer:
+      no_title: "Немає заголовка"
+      enter_message_here: "Введіть ваше повідомлення тут"
+      post_article: "Опублікувати статтю"
+      select_category: "Виберіть категорію"
+      edit_categories: "Редагувати категорії"
+      update_settings: "Оновити налаштування блогу"
+      write: "Написати"
+      view: "Переглянути"
+      nothing_to_preview: "Немає попереднього перегляду"
+      comment_section: "Розділ коментарів недоступний під час написання статті."
+      no_blog_tags_selected: "Жоден із вибраних вами тегів не є тегом блогу. Будь ласка, виберіть хоча б один."
+      post_without_blog_info: "Ви впевнені, що хочете опублікувати цю статтю? Ви ще не додали короткий опис або зображення."
+
+    article_settings:
+      title: "Налаштування статті блогу"
+
+      fields:
+        summary:
+          title: "Короткий опис статті"
+          placeholder: "Введіть короткий опис"
+          helper_text: "Цей опис буде видно в огляді блогу та використовуватиметься для SEO."
+
+        image:
+          title: "Зображення статті"
+          helper_text: "Найкраща роздільна здатність для соцмереж: 1200x630"
+
+        highlight:
+          title: "Виділена стаття"
+          helper_text: "Додати велике зображення для цієї статті на сторінці огляду блогу."
